@@ -1,0 +1,45 @@
+.outerContainer{
+  padding : 10px 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  max-width : 1800px;
+  padding : 10px 0px;
+}
+
+.rightContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listBtn{
+  margin-right : 30px;
+  border : none;
+  background : transparent;
+  text-decoration: none;
+  color : black;
+  
+}
+
+.logoBtn{
+  border : none;
+  text-decoration: none;
+  color : black;
+  font-size : 20px;
+}
+.listBtn:hover{
+  color : #0a58ca;
+}
+
+@media only screen and (min-width: 1400px) {
+  
+}
+@media only screen and (min-width: 1600px) {
+  
+}
+@media only screen and (min-width: 1800px) {
+  
+}
