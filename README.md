@@ -1,40 +1,119 @@
-# React Truffle Box
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
+# Blockchain based Ecommerce App
 
-## Installation
+An Ecommerce app to buy and sell goods using cryptocurrency based on blockchain.
 
-First ensure you are in an empty directory.
+## Tech Stack
 
-Run the `unbox` command using 1 of 2 ways.
+**Client:** React, React-Bootstrap
 
-```sh
-# Install Truffle globally and run `truffle unbox`
-$ npm install -g truffle
-$ truffle unbox react
+**Backend:** Solidity, Truffle
+
+
+
+
+## Features
+
+- Buy and sell goods
+- List Products
+- Buy Products
+
+## Demo 
+
+
+## Instructions
+
+- You can use the app using any blockchain based browser or if you don't have any then you have to install `Metamask` browser extension which converts normal browser into blockchain browser.
+
+- You need to connect your account to Metamask wallet in order to perform transactions.
+
+- You can list you product on the app.
+
+- You can buy a product listed on the app.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  gh repo clone L-A-L-I-T/BlockChainEcommerce
 ```
 
-```sh
-# Alternatively, run `truffle unbox` via npx
-$ npx truffle unbox react
+Go to the project directory
+
+```bash
+  cd BlockChainEcommerce/client
 ```
 
-Start the react dev server.
 
-```sh
-$ cd client
-$ npm start
-  Starting the development server...
+Install dependencies
+
+```bash
+  npm install
+```
+You need to install [Truffle](https://trufflesuite.com/truffle/) and [Ganache](https://trufflesuite.com/ganache/) in order to run blockchain locally.
+
+```bash
+npm install truffle -g
 ```
 
-From there, follow the instructions on the hosted React app. It will walk you through using Truffle and Ganache to deploy the `SimpleStorage` contract, making calls to it, and sending transactions to change the contract's state.
+Start the server
 
-## FAQ
+```bash
+  npm start
+```
 
-- __How do I use this with Ganache (or any other network)?__
 
-  The Truffle project is set to deploy to Ganache by default. If you'd like to change this, it's as easy as modifying the Truffle config file! Check out [our documentation on adding network configurations](https://trufflesuite.com/docs/truffle/reference/configuration/#networks). From there, you can run `truffle migrate` pointed to another network, restart the React dev server, and see the change take place.
 
-- __Where can I find more resources?__
+## Metamask Instructions
 
-  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Create React App](https://create-react-app.dev). Either one would be a great place to start!
+Ganache provides you with 10 Dummy accounts with fake Ethereum which you need to import into the Metamask wallet then you can use these accounts for perfoming transactions.
+
+You can import the accounts using private key provided by Ganache and import account feature in Metamask.
+
+## Authors
+
+- [@LalitRajput](https://www.lalitrajput.com/)
+
+
+
+## Other projects
+
+Here are some of my other projects
+
+[Moviesverse](https://github.com/L-A-L-I-T/Moviesverse)
+
+[Chatcord](https://github.com/L-A-L-I-T/mernchatcord)
+
+
+## Coding Profile
+
+[Leetcode](https://leetcode.com/lrrajput2001/)
+
+[GFG](https://auth.geeksforgeeks.org/user/lalitrajput/profile)
+
+[Codestudio](https://www.codingninjas.com/codestudio/profile/9563d97f-6e86-483c-85c4-196c5ca5baa3)
+
+[Hackerrank](https://www.hackerrank.com/lrrajput2001)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.lalitrajput.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lalit-rajput-9a1a37215/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/LalitNandkisho1)
+
+
+## 🛠 Skills
+**Languages:** HTML, CSS, Javascript
+
+**Frontend Frameworks:** ReactJs
+
+**Backend Frameworks:** NodeJs, ExpressJs
+
+**Database:** MYSQL, MONGODB
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at lalitrajput201@gmail.com
+
